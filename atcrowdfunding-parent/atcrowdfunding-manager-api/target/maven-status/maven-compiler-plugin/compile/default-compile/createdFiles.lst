@@ -1,0 +1,7 @@
+com\atguigu\scw\mapper\TAdminRoleMapper.class
+com\atguigu\scw\mapper\TMenuMapper.class
+com\atguigu\scw\mapper\TPermissionMenuMapper.class
+com\atguigu\scw\mapper\TRolePermissionMapper.class
+com\atguigu\scw\mapper\TAdminMapper.class
+com\atguigu\scw\mapper\TRoleMapper.class
+com\atguigu\scw\mapper\TPermissionMapper.class

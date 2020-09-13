@@ -12,12 +12,21 @@ import java.util.List;
 @Controller
 public class DispatchController {
 
-    @Autowired
-    TMenuMapper tMenuMapper;
-
-    @ResponseBody
-    @RequestMapping("/test")
-    public List<TMenu> test(){
-        return tMenuMapper.selectByExample(null);
+    @RequestMapping("/")
+    public String index(){
+        return "index";
     }
+
+
+
+
+    /*整合测试*/
+//    @Autowired
+//    TMenuMapper tMenuMapper;
+//
+//    @ResponseBody
+//    @RequestMapping("/test")
+//    public List<TMenu> test(){
+//        return tMenuMapper.selectByExample(null);
+//    }
 }

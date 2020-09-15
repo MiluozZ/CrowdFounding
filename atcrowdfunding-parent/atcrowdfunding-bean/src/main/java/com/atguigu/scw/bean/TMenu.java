@@ -1,5 +1,8 @@
 package com.atguigu.scw.bean;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class TMenu {
     private Integer id;
 
@@ -10,6 +13,18 @@ public class TMenu {
     private String icon;
 
     private String url;
+
+
+    private List<TMenu> children = new ArrayList<>();
+
+    public List<TMenu> getChildren() {
+        return children;
+    }
+
+    public void setChildren(List<TMenu> children) {
+        this.children = children;
+    }
+
 
     public Integer getId() {
         return id;

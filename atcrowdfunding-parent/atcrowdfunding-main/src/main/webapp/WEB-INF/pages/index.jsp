@@ -15,10 +15,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <base href="${pageContext.request.contextPath}/static/"/>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/carousel.css">
+
+    <%@include file="/WEB-INF/pages/include/base_css.jsp"%>
+
     <style>
         h3 {
             font-weight:bold;
@@ -630,10 +629,7 @@
 </div><!-- /.container -->
 
 
-<script src="jquery/jquery-2.1.1.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="script/docs.min.js"></script>
-<script src="script/back-to-top.js"></script>
+<%@include file="/WEB-INF/pages/include/base_js.jsp"%>
 <script>
     $(".thumbnail img").css("cursor", "pointer");
     $(".thumbnail img").click(function(){

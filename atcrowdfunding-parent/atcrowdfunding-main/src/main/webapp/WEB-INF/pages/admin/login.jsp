@@ -16,13 +16,8 @@
     <meta name="description" content="">
     <meta name="keys" content="">
     <meta name="author" content="">
-    <base href="${pageContext.request.contextPath}/static/"/>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/login.css">
-    <style>
+    <%@include file="/WEB-INF/pages/include/base_css.jsp"%>
 
-    </style>
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -67,10 +62,7 @@
         <button type="submit" class="btn btn-lg btn-success btn-block"  > 登录</button>
     </form>
 </div>
-<script src="jquery/jquery-2.1.1.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
-<script>
+<%@include file="/WEB-INF/pages/include/base_js.jsp"%>
 
-</script>
 </body>
 </html>

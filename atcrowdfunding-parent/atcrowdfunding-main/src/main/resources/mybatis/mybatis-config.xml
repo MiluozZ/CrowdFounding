@@ -3,10 +3,10 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    <!--<plugins>-->
-        <!--<plugin interceptor="com.github.pagehelper.PageInterceptor">-->
-            <!--&lt;!&ndash;启用分页合理化&ndash;&gt;-->
-            <!--<property name="reasonable" value="true"/>-->
-        <!--</plugin>-->
-    <!--</plugins>-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!--启用分页合理化-->
+            <property name="reasonable" value="true"/>
+        </plugin>
+    </plugins>
 </configuration>

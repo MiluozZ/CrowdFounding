@@ -1,6 +1,8 @@
 package com.atguigu.scw.bean;
 
-public class TAdmin {
+import java.io.Serializable;
+
+public class TAdmin implements Serializable {
     private Integer id;
 
     private String loginacct;

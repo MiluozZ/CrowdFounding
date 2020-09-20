@@ -11,6 +11,7 @@
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="script/docs.min.js"></script>
 <script src="script/back-to-top.js"></script>
+<script src="ztree/jquery.ztree.all-3.5.min.js"></script>
 <script src="layer/layer.js"></script>
 
 <script type="text/javascript">

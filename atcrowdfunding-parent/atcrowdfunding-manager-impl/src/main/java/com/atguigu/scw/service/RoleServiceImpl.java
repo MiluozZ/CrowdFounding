@@ -38,5 +38,16 @@ public class RoleServiceImpl implements RoleService {
         tRoleMapper.deleteByExample(exa);
     }
 
+    @Override
+    public TRole getRole(Integer id) {
+        TRole tRole = tRoleMapper.selectByPrimaryKey(id);
+        return tRole;
+    }
+
+    @Override
+    public void updateRole(TRole tRole) {
+        tRoleMapper.updateByPrimaryKeySelective(tRole);
+    }
+
 
 }

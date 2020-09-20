@@ -125,6 +125,36 @@
     </div>
 </div>
 
+
+
+//角色修改模态框
+<div class="modal fade" id="updateRoleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="updateModalLabel">修改角色</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <input type="hidden" name="id">
+                    <div class="form-group">
+                        <label for="recipient-name" class="control-label">角色名称</label>
+                        <input type="text" name="name" class="form-control" id="update-name">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button id="updateRole" type="button" class="btn btn-primary">提交</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
 <%@include file="/WEB-INF/pages/include/base_js.jsp"%>
 <script type="text/javascript">
     var currentPagenum;
@@ -135,6 +165,48 @@
     $(".list-group-item:contains(' 权限管理 ')").removeClass("tree-closed");
     $(".list-group-item:contains(' 权限管理 ') ul").show();
     $(".list-group-item:contains(' 权限管理 ') li :contains('角色维护')").css("color","red");
+
+    //---------------------角色修改-------------------------------
+
+    //回显要修改的信息,显示修改模态框
+    $("tbody").delegate(".updateRoleBtn","click",function () {
+       var roleId = $(this).attr("roleid");
+       var roleName =  $(this).parents("tr").find("td:eq(2)").text();
+        $.ajax({
+            type:"get",
+            url:"${pageContext.request.contextPath}/role/getRole",
+            data:{id:roleId},
+            success:function (role) {
+                $("#updateRoleModal input[name='name'] ").val(role.name);
+                $("#updateRoleModal input[name='id'] ").val(role.id);
+                $("#updateRoleModal").modal("show");
+            }
+        })
+
+    });
+
+    //修改提交
+    $("#updateRole").click(function () {
+       $.ajax({
+           type:"get",
+           url:"${pageContext.request.contextPath}/role/updateRole",
+           data:$("#updateRoleModal form").serialize(),
+           success:function (result) {
+               if (result == "ok"){
+                   $("#updateRoleModal").modal("hide");
+                   var condition = $("input[name='condition']").val();
+                   getRoles(currentPagenum,condition);
+                   layer.msg("修改成功");
+               }
+           }
+       })
+    });
+
+
+
+
+
+
 
 
 

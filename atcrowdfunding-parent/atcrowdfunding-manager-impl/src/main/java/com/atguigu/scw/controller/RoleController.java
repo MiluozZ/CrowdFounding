@@ -19,6 +19,25 @@ import java.util.List;
 public class RoleController {
     @Autowired
     RoleService roleService;
+    //修改角色
+    @ResponseBody
+    @RequestMapping("/updateRole")
+    public String updateRole(TRole tRole){
+        roleService.updateRole(tRole);
+        return "ok";
+    }
+
+
+
+    //修改回显
+    @ResponseBody
+    @RequestMapping("/getRole")
+    public TRole getRole(Integer id){
+        TRole tRole = roleService.getRole(id);
+        return tRole;
+    }
+
+
 
     //批量删除角色
     @ResponseBody

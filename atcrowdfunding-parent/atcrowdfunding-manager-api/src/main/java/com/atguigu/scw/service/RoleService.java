@@ -13,4 +13,8 @@ public interface RoleService {
     void insertRole(TRole tRole);
 
     void batchDel(List<Integer> ids);
+
+    TRole getRole(Integer id);
+
+    void updateRole(TRole tRole);
 }

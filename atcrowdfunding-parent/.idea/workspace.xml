@@ -8,21 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07f8af21-7dd1-428e-af09-aef5dc219e6f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/pages/admin/role.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/pages/admin/role.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/pages/include/base_css.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/pages/include/base_css.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/pages/include/base_js.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/pages/include/base_js.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main/WEB-INF/lib/atcrowdfunding-manager-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main/WEB-INF/lib/atcrowdfunding-manager-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main/WEB-INF/lib/atcrowdfunding-manager-impl-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main/WEB-INF/lib/atcrowdfunding-manager-impl-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main/WEB-INF/pages/admin/role.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main/WEB-INF/pages/admin/role.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main/WEB-INF/pages/include/base_css.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main/WEB-INF/pages/include/base_css.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main/WEB-INF/pages/include/base_js.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-main/target/atcrowdfunding-main/WEB-INF/pages/include/base_js.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-manager-api/src/main/java/com/atguigu/scw/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-manager-api/src/main/java/com/atguigu/scw/service/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-manager-api/target/classes/com/atguigu/scw/service/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-manager-api/target/classes/com/atguigu/scw/service/RoleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-manager-impl/src/main/java/com/atguigu/scw/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-manager-impl/src/main/java/com/atguigu/scw/controller/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-manager-impl/src/main/java/com/atguigu/scw/service/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-manager-impl/src/main/java/com/atguigu/scw/service/RoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-manager-impl/target/classes/com/atguigu/scw/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-manager-impl/target/classes/com/atguigu/scw/controller/RoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding-manager-impl/target/classes/com/atguigu/scw/service/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-manager-impl/target/classes/com/atguigu/scw/service/RoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/pages/admin/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/pages/admin/menu.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,11 +28,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/pages/admin/menu.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="179" column="7" lean-forward="true" selection-start-line="179" selection-start-column="7" selection-end-line="179" selection-end-column="7" />
+            <state relative-caret-position="888">
+              <caret line="88" column="4" lean-forward="true" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#3258#4844#0#HTML" />
               </folding>
             </state>
           </provider>
@@ -55,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/atcrowdfunding-manager-impl/src/main/java/com/atguigu/scw/controller/MenuController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
+            <state relative-caret-position="315">
               <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -395,7 +380,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600568162437" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600568219834" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -520,15 +505,15 @@
       <workItem from="1600389180546" duration="15096000" />
       <workItem from="1600419451711" duration="12548000" />
       <workItem from="1600475544443" duration="8330000" />
-      <workItem from="1600561606033" duration="6147000" />
+      <workItem from="1600561606033" duration="6857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106620000" />
+    <option name="totallyTimeSpent" value="107330000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18123667" />
@@ -912,7 +897,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding-manager-impl/src/main/java/com/atguigu/scw/controller/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="315">
           <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -922,11 +907,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding-main/src/main/webapp/WEB-INF/pages/admin/menu.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="179" column="7" lean-forward="true" selection-start-line="179" selection-start-column="7" selection-end-line="179" selection-end-column="7" />
+        <state relative-caret-position="888">
+          <caret line="88" column="4" lean-forward="true" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3258#4844#0#HTML" />
           </folding>
         </state>
       </provider>
